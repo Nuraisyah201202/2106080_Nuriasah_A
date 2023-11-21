@@ -1,0 +1,35 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(204, 214, 65);
+    margin: 0;
+    padding: 0;
+}
+    .form {
+    display: flex;
+    flex-direction: column; /* horizontally */
+    justify-content: center; /* vertically */
+    align-items: center;
+    height: 100vh;
+    }
+    label,input {
+    display: block;
+    }
+    .form-input {
+    padding: 10px;
+    border: none;
+    background: #5c93c9;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    }
+    #btn-kirim {
+    padding: 10px;
+    background-color: rgb(204, 69, 143);
+    color: rgb(31, 20, 15);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    }
+    #btn-kirim:hover {
+    background-color: rgb(244, 199, 116);
+    color: rgb(237, 228, 228);
+    }
